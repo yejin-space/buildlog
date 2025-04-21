@@ -4,4 +4,4 @@ title: buildlog
 subtitle: Quietly stacking little notes — shaping them into my own story.
 ---
 
-Welcome to my buildlog.
+{% include feature_row %}
