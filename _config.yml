@@ -6,11 +6,13 @@ description: >-
   小さな記録を積み重ねて、私だけの物語にしていく。
 baseurl: "/buildlog"
 url: "https://yejin-space.github.io"
-twitter_username: yejinspace
+paginate: 5
+paginate_path: "/page:num/"
 github_username: yejin-space
 remote_theme: minimal-mistakes-jekyll
 
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
 
